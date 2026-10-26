@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.env
+cg_logs/
+eval_results/
+runs/
+data/
+datasets/*/

@@ -1,0 +1,5 @@
+# Use with: chemgraph run --config config.toml -m qwen3.8-27b -q "..."
+# The API key comes from VLLM_API_KEY, never from this file.
+
+[api.vllm]
+base_url = "http://siena01.cit.tu-berlin.de:8000/v1"

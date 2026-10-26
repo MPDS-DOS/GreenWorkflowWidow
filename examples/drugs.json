@@ -1,0 +1,26 @@
+{
+  "source": "PubChem PUG REST, retrieved 2026-10-26",
+  "molecules": [
+    {"name": "aspirin", "cid": 2244, "formula": "C9H8O4", "mw": 180.16, "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O"},
+    {"name": "ibuprofen", "cid": 3672, "formula": "C13H18O2", "mw": 206.28, "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O"},
+    {"name": "acetaminophen", "cid": 1983, "formula": "C8H9NO2", "mw": 151.16, "smiles": "CC(=O)NC1=CC=C(C=C1)O"},
+    {"name": "caffeine", "cid": 2519, "formula": "C8H10N4O2", "mw": 194.19, "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C"},
+    {"name": "theophylline", "cid": 2153, "formula": "C7H8N4O2", "mw": 180.16, "smiles": "CN1C2=C(C(=O)N(C1=O)C)NC=N2"},
+    {"name": "nicotine", "cid": 89594, "formula": "C10H14N2", "mw": 162.23, "smiles": "CN1CCC[C@H]1C2=CN=CC=C2"},
+    {"name": "metformin", "cid": 4091, "formula": "C4H11N5", "mw": 129.16, "smiles": "CN(C)C(=N)N=C(N)N"},
+    {"name": "lidocaine", "cid": 3676, "formula": "C14H22N2O", "mw": 234.34, "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C"},
+    {"name": "diazepam", "cid": 3016, "formula": "C16H13ClN2O", "mw": 284.74, "smiles": "CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3"},
+    {"name": "paroxetine", "cid": 43815, "formula": "C19H20FNO3", "mw": 329.4, "smiles": "C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4"}
+  ],
+  "tasks": {
+    "chemgraph": [
+      {"id": "cg-opt", "prompt": "Build {name} from SMILES {smiles}, optimize its geometry with MACE and report the final energy in eV."},
+      {"id": "cg-thermo", "prompt": "Build {name} from SMILES {smiles} and compute its enthalpy and Gibbs free energy at 298.15 K with MACE."},
+      {"id": "cg-ir", "prompt": "Build {name} from SMILES {smiles} and compute its vibrational frequencies and IR spectrum with MACE."}
+    ],
+    "biomni": [
+      {"id": "bm-admet", "prompt": "Predict ADMET properties for {name} ({smiles})."},
+      {"id": "bm-targets", "prompt": "Identify the primary protein targets of {name} ({smiles}) and the pathways they belong to."}
+    ]
+  }
+}
