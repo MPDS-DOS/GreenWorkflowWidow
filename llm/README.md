@@ -27,6 +27,7 @@ vllm serve Qwen/Qwen3.8-27B-FP8 \
   --max-model-len 131072 \
   --kv-cache-dtype fp8 \
   --language-model-only \
+  --max-num-seqs 64 \
   --enable-prefix-caching \
   --reasoning-parser qwen3 \
   --enable-auto-tool-choice --tool-call-parser qwen3_coder \
@@ -35,6 +36,7 @@ vllm serve Qwen/Qwen3.8-27B-FP8 \
 
 - `--language-model-only` skips the vision encoder and frees its memory for the KV cache.
 - Thinking is off by default to keep runs short and comparable. Remove the last flag to study thinking mode.
+- `--max-num-seqs 64`: the default 256 exceeds the model's Mamba state slots (228 on the L40) and vLLM refuses to start.
 - Check the startup log for the reported KV-cache size (`GPU KV cache size: … tokens`).
 
 Docker:
@@ -44,10 +46,13 @@ docker run --gpus all -p 8000:8000 --ipc=host \
   -v ~/.cache/huggingface:/root/.cache/huggingface \
   vllm/vllm-openai:v0.32.0 \
   Qwen/Qwen3.8-27B-FP8 --served-model-name qwen3.8-27b --api-key "$VLLM_API_KEY" \
-  --max-model-len 131072 --kv-cache-dtype fp8 --language-model-only --enable-prefix-caching \
+  --max-model-len 131072 --kv-cache-dtype fp8 --language-model-only --max-num-seqs 64 --enable-prefix-caching \
   --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser qwen3_coder \
   --default-chat-template-kwargs '{"enable_thinking": false}'
 ```
+
+On siena01 this runs as container `vllm` (`--restart unless-stopped`), started by `/srv/llm/run.sh`;
+weights in `/srv/llm/hf`, key in `/srv/llm/env`. On the L40: 295k tokens of KV cache, ~2 full 128k contexts at once.
 
 ## Check the endpoint
 
