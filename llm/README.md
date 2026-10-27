@@ -56,6 +56,9 @@ weights in `/srv/llm/hf`, key in `/srv/llm/env`. On the L40: 295k tokens of KV c
 
 ## Check the endpoint
 
+Port 8000 is reachable only from the cluster nodes (130.149.248.0/24) and Tailscale.
+From elsewhere, tunnel: `ssh -L 8000:localhost:8000 <user>@siena01.cit.tu-berlin.de` and use `http://localhost:8000/v1`.
+
 ```bash
 export LLM_BASE_URL="http://siena01.cit.tu-berlin.de:8000/v1"
 
