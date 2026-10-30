@@ -1,10 +1,6 @@
-# The API key comes from VLLM_API_KEY, never from this file.
+# Workload profiles: chemgraph eval --config config.toml --profile <small|big|huge> --models <model>
+# The endpoint comes from VLLM_BASE_URL and VLLM_API_KEY.
 # Dataset paths are relative to this directory; run chemgraph from here.
-
-[api.vllm]
-base_url = "http://siena01.cit.tu-berlin.de:8000/v1"
-
-# chemgraph eval --config config.toml --profile <small|big|huge> --models qwen3.8-27b
 
 [eval.profiles.small]
 dataset = "../datasets/chemgraph/output_data.json"

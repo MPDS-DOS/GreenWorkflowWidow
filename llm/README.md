@@ -1,28 +1,42 @@
 # LLM server
 
-ChemGraph uses one OpenAI-compatible endpoint served by vLLM on siena01 (1× NVIDIA L40, 48 GB).
+OpenAI-compatible endpoint used by ChemGraph. Endpoint URL and API key are provided separately.
+
+## Hardware
+
+| Component | Specification |
+| --- | --- |
+| CPU | AMD EPYC 8224P, 24 cores / 48 threads |
+| Memory | 188 GB |
+| GPU | 1× NVIDIA L40, 48 GB |
+| Storage | 3.5 TB NVMe |
+
+## Software
+
+| Component | Version |
+| --- | --- |
+| OS | Ubuntu 24.04 LTS, kernel 6.8 |
+| NVIDIA driver / CUDA | 595.91 / 13.2 |
+| Docker | 29.9 |
+| vLLM | 0.32.0 (`vllm/vllm-openai:v0.32.0`) |
 
 ## Model
 
-[Qwen/Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) (Apache-2.0, released 2026-08).
+[Qwen/Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) (Apache-2.0), served as `qwen3.8-27b`.
 
-- 27B dense, FP8 weights ≈ 31 GB, leaving the rest of the L40 for the KV cache.
-- Hybrid attention (linear attention in 48 of 64 layers), so long agent contexts need little KV memory.
-- Native tool calling (needed by ChemGraph).
+- 27B dense parameters, FP8 weights (≈ 31 GB)
+- Hybrid attention: linear attention in 48 of 64 layers
+- Native tool calling
+- KV cache on the L40: 295k tokens (≈ 2 concurrent 128k contexts)
 
-Faster alternative: [Qwen/Qwen3.6-35B-A3B-FP8](https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8)
-(MoE, 3B active parameters, ≈ 37.5 GB weights, less KV headroom).
-
-## Serve
-
-Requires `vllm>=0.32.0` (or the image `vllm/vllm-openai:v0.32.0`).
+## Serving configuration
 
 ```bash
-export VLLM_API_KEY="<shared-key>"
-
-vllm serve Qwen/Qwen3.8-27B-FP8 \
+docker run --gpus all -p 8000:8000 --ipc=host \
+  -v ~/.cache/huggingface:/root/.cache/huggingface \
+  vllm/vllm-openai:v0.32.0 \
+  Qwen/Qwen3.8-27B-FP8 \
   --served-model-name qwen3.8-27b \
-  --host 0.0.0.0 --port 8000 \
   --api-key "$VLLM_API_KEY" \
   --max-model-len 131072 \
   --kv-cache-dtype fp8 \
@@ -34,36 +48,17 @@ vllm serve Qwen/Qwen3.8-27B-FP8 \
   --default-chat-template-kwargs '{"enable_thinking": false}'
 ```
 
-- `--language-model-only` skips the vision encoder and frees its memory for the KV cache.
-- Thinking is off by default to keep runs short and comparable. Remove the last flag to study thinking mode.
-- `--max-num-seqs 64`: the default 256 exceeds the model's Mamba state slots (228 on the L40) and vLLM refuses to start.
-- Check the startup log for the reported KV-cache size (`GPU KV cache size: … tokens`).
+| Flag | Purpose |
+| --- | --- |
+| `--language-model-only` | No vision encoder; memory goes to the KV cache |
+| `--max-num-seqs 64` | The default (256) exceeds the model's state slots on the L40 (228) |
+| `--enable-prefix-caching` | Reuses the shared prompt prefix across agent calls |
+| `--default-chat-template-kwargs` | Thinking mode off |
 
-Docker:
-
-```bash
-docker run --gpus all -p 8000:8000 --ipc=host \
-  -v ~/.cache/huggingface:/root/.cache/huggingface \
-  vllm/vllm-openai:v0.32.0 \
-  Qwen/Qwen3.8-27B-FP8 --served-model-name qwen3.8-27b --api-key "$VLLM_API_KEY" \
-  --max-model-len 131072 --kv-cache-dtype fp8 --language-model-only --max-num-seqs 64 --enable-prefix-caching \
-  --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser qwen3_coder \
-  --default-chat-template-kwargs '{"enable_thinking": false}'
-```
-
-On the L40: 295k tokens of KV cache, ~2 full 128k contexts at once.
-
-## Check the endpoint
-
-Port 8000 is reachable only from the cluster nodes (130.149.248.0/24), Tailscale and dosvpn.
+## Endpoint check
 
 ```bash
-export LLM_BASE_URL="http://siena01.cit.tu-berlin.de:8000/v1"
-
-curl -s -H "Authorization: Bearer $VLLM_API_KEY" "$LLM_BASE_URL/models"
-curl -s -H "Authorization: Bearer $VLLM_API_KEY" -H "Content-Type: application/json" \
-  "$LLM_BASE_URL/chat/completions" \
-  -d '{"model": "qwen3.8-27b", "messages": [{"role": "user", "content": "Say hello."}]}'
+curl -s -H "Authorization: Bearer $VLLM_API_KEY" "$VLLM_BASE_URL/models"
 ```
 
-Server metrics (queue length, KV-cache usage, prefix-cache hits) are exposed at `http://siena01.cit.tu-berlin.de:8000/metrics`.
+Prometheus metrics: `<endpoint>/metrics`.
