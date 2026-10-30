@@ -1,9 +1,16 @@
 # GreenWorkflowWidow
 
-Reproducible agentic workloads based on [ChemGraph](https://github.com/argonne-lcf/ChemGraph) 0.7.0
-and a self-hosted, OpenAI-compatible LLM endpoint.
+Reproducible agentic workloads with a self-hosted, OpenAI-compatible LLM endpoint.
 
-## Workloads
+## Frameworks
+
+| Framework | Domain | Benchmark | Execution |
+| --- | --- | --- | --- |
+| [ChemGraph](chemgraph/) | Computational chemistry | ChemGraph ground truth and paper evaluation | Simulation tools on the host CPU |
+| [SWE-bench](swebench/) | Software engineering | SWE-bench Lite / Verified | One Docker container per instance |
+| [Biomni](biomni/) | Biomedicine | Biomni-Eval1 | Generated code on the host |
+
+## ChemGraph workloads
 
 | Profile | Questions | Source | Approx. duration |
 | --- | --- | --- | --- |
@@ -17,8 +24,10 @@ Durations refer to one agent host with 24 cores, questions processed sequentiall
 
 | Path | Content |
 | --- | --- |
-| [`chemgraph/`](chemgraph/) | Installation, configuration, workload profiles |
-| [`datasets/`](datasets/) | Dataset sources, download, conversion |
+| [`chemgraph/`](chemgraph/) | ChemGraph: installation, configuration, workload profiles |
+| [`swebench/`](swebench/) | SWE-bench with mini-swe-agent: installation, run, evaluation |
+| [`biomni/`](biomni/) | Biomni: installation, configuration, examples, benchmark |
+| [`datasets/`](datasets/) | ChemGraph dataset sources, download, conversion |
 | [`llm/`](llm/) | LLM server: hardware, model, serving configuration |
 
 ## Monitoring
@@ -33,4 +42,4 @@ Grafana dashboards (URLs provided separately):
 
 ## Licenses
 
-ChemGraph is licensed under Apache-2.0. Datasets are subject to the terms of their sources.
+ChemGraph, Biomni: Apache-2.0. SWE-bench, mini-swe-agent: MIT. Datasets are subject to the terms of their sources.

@@ -1,4 +1,5 @@
-.venv/
+.venv*/
+biomni_data/
 __pycache__/
 .env
 cg_logs/
