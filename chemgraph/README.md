@@ -1,120 +1,68 @@
 # ChemGraph
 
-Agent framework for computational chemistry and materials science from Argonne
+Agent framework for computational chemistry from Argonne
 ([argonne-lcf/ChemGraph](https://github.com/argonne-lcf/ChemGraph), Apache-2.0).
-It turns natural-language requests into molecular construction, simulation and analysis
-steps built on LangGraph, ASE and RDKit. The LLM calls tools natively; calculations run locally.
+An LLM plans the steps and calls tools; the tools (RDKit, ASE, MACE, xTB) run locally on the CPU.
 
-Pinned version: `chemgraph==0.7.0`. Documentation: <https://argonne-lcf.github.io/ChemGraph/>
+Pinned version: `chemgraph==0.7.0`.
 
 ## Install
 
-Python 3.11 or newer.
+From the repository root, Python 3.11:
 
 ```bash
 uv venv .venv --python 3.11
 source .venv/bin/activate
-uv pip install chemgraph==0.7.0
+uv pip install "chemgraph[calculators]==0.7.0"
 ```
 
-The core install includes ASE, EMT and MACE. Optional calculators:
+`[calculators]` adds xTB, which the `small` benchmark needs.
 
-| Calculator | Install | Notes |
-| --- | --- | --- |
-| EMT | core | Lightweight; for setup checks, not accurate chemistry |
-| MACE | core | MACE-MP foundation model; weights download on first use |
-| TBLite / xTB | `uv pip install "chemgraph[calculators]"` | May need a Fortran toolchain |
-
-## Connect to the local LLM
-
-ChemGraph routes any model ID it doesn't know to an OpenAI-compatible endpoint
-when a base URL is set:
+## Connect
 
 ```bash
-export VLLM_BASE_URL="http://siena01.cit.tu-berlin.de:8000/v1"
-export VLLM_API_KEY="<shared-key>"
-export CHEMGRAPH_MODEL="qwen3.8-27b"
+export VLLM_API_KEY=<key>
+cd chemgraph
+chemgraph run -m qwen3.8-27b --config config.toml \
+  -q "Build water from SMILES O, optimize it with MACE and report the final energy in eV."
 ```
 
-Alternatively pass [`config.toml`](config.toml) with `--config config.toml`.
+[`config.toml`](config.toml) sets the endpoint ([llm/](../llm/)) and the workloads.
 
-Check the setup:
+## Workloads
 
 ```bash
-chemgraph run -m "$CHEMGRAPH_MODEL" --check-keys
-chemgraph run -m "$CHEMGRAPH_MODEL" \
-  -q "Build water from SMILES O, optimize it with EMT, and report the final energy." \
-  --output last_message
+chemgraph eval --models qwen3.8-27b --config config.toml --profile small --output-dir ../runs/small
 ```
 
-## Run
+| Profile | Dataset | Questions | Duration |
+| --- | --- | --- | --- |
+| `small` | [benchmark](../datasets/) | 40, small molecules, graded against ground truth | 38 min (measured) |
+| `big` | [`questions/big.json`](questions/big.json) | 30 molecules × {optimization, vibrations, thermochemistry}, MACE `medium-0b2` | ~2 h (estimated) |
+| `huge` | [`questions/huge.json`](questions/huge.json) | `big` × MACE {`small-0b2`, `medium-0b2`, `large-0b2`} | ~6–10 h (estimated) |
 
-```bash
-chemgraph run \
-  -m "$CHEMGRAPH_MODEL" \
-  -w single_agent \
-  -q "Calculate the vibrational frequencies of water with MACE." \
-  --output last_message
-```
+All profiles use the `multi_agent` workflow: a planner splits each question into subtasks,
+executor agents run them in parallel, and a response agent writes the answer.
+Questions run one after another.
 
-| Option | Purpose |
+The molecules are 20 small molecules from ChemGraph's MACE screening example and 10 approved drugs
+(PubChem SMILES, up to 47 atoms). Cost per question grows with molecule size, task
+(vibrations and thermochemistry need one force calculation per atom) and MACE model size.
+
+| Option | Effect |
 | --- | --- |
-| `-m`, `--model` | Model ID (`qwen3.8-27b`) |
-| `-w`, `--workflow` | Agent workflow (see below) |
-| `-o`, `--output` | Return the full `state` or only the `last_message` |
-| `-s`, `--structured` | Request structured final output |
-| `-r`, `--report` | Generate an HTML report |
-| `--output-file` | Save the response to a file |
-| `-v` / `-vv` | INFO / DEBUG logging |
-
-Python API (asynchronous):
-
-```python
-import asyncio
-from chemgraph.agent.llm_agent import ChemGraph
-
-async def main():
-    agent = ChemGraph(model_name="qwen3.8-27b", workflow_type="single_agent",
-                      return_option="last_message")
-    result = await agent.run("Optimize the geometry of caffeine with MACE.")
-    print(result.content)
-
-asyncio.run(main())
-```
-
-## Workflows
-
-| Workflow | Use |
-| --- | --- |
-| `single_agent` | Default. Molecule lookup, ASE calculations, reports |
-| `multi_agent` | Planner/executor with parallel subtasks; more LLM calls |
-| `main_agent` | Workspace agent with files, shell and delegation; interactive or `--dangerously-skip-approvals` |
-| `mock_agent` | One tool-call pass; for development and evaluation |
+| `--max-queries N` | Only the first N questions |
+| `--resume` | Skip questions already answered in `--output-dir` |
+| `--workflows single_agent` | One agent instead of planner and executors |
 
 ## Output
 
-Each run writes a session directory under `cg_logs/` (XYZ structures, JSON results,
-trajectories, spectra, reports). Set `CHEMGRAPH_LOG_DIR` to choose another location.
-Sessions are stored in `~/.chemgraph/sessions.db`.
+`--output-dir` gets a report (`benchmark_*.md`), one checkpoint line per question and, under `logs/`,
+every structure, trajectory and agent conversation (`state_thread_*.json`).
 
-## Benchmark
+Known issues in 0.7.0:
 
-ChemGraph ships an evaluator with structured ground truth (dataset: see [datasets/](../datasets/)):
-
-```bash
-chemgraph eval \
-  --models "$CHEMGRAPH_MODEL" \
-  --base-url "$VLLM_BASE_URL" \
-  --dataset ../datasets/chemgraph/output_data.json \
-  --workflows single_agent \
-  --judge-type structured \
-  --output-dir eval_results
-```
-
-Add `--query-ids 1 2 3` for a subset.
-
-## Notes
-
-- Molecule lookup by name uses PubChem (network). Pass SMILES directly for offline runs.
-- The first MACE run pauses while model weights download.
-- Startup warnings about missing calculators are harmless unless the workflow needs them.
+- Exit code is 0 even when a question fails; check the report.
+- Name MACE models exactly (`small-0b2`, not `small`); the agent otherwise invents names like
+  `small-mpa-0`, retries until the recursion limit and returns no answer.
+- Molecules above ~60 atoms fail in RDKit's pre-optimization ("Failed to optimize 3D geometry").

@@ -1,5 +1,22 @@
-# Use with: chemgraph run --config config.toml -m qwen3.8-27b -q "..."
 # The API key comes from VLLM_API_KEY, never from this file.
+# Dataset paths are relative to this directory; run chemgraph from here.
 
 [api.vllm]
 base_url = "http://siena01.cit.tu-berlin.de:8000/v1"
+
+# chemgraph eval --config config.toml --profile <small|big|huge> --models qwen3.8-27b
+
+[eval.profiles.small]
+dataset = "../datasets/chemgraph/output_data.json"
+workflow_types = ["multi_agent"]
+judge_type = "structured"
+
+[eval.profiles.big]
+dataset = "questions/big.json"
+workflow_types = ["multi_agent"]
+judge_type = "structured"
+
+[eval.profiles.huge]
+dataset = "questions/huge.json"
+workflow_types = ["multi_agent"]
+judge_type = "structured"

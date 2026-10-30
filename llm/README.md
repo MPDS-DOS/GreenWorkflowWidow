@@ -1,6 +1,6 @@
 # LLM server
 
-Both agents use one OpenAI-compatible endpoint served by vLLM on siena01 (1× NVIDIA L40, 48 GB).
+ChemGraph uses one OpenAI-compatible endpoint served by vLLM on siena01 (1× NVIDIA L40, 48 GB).
 
 ## Model
 
@@ -8,7 +8,7 @@ Both agents use one OpenAI-compatible endpoint served by vLLM on siena01 (1× NV
 
 - 27B dense, FP8 weights ≈ 31 GB, leaving the rest of the L40 for the KV cache.
 - Hybrid attention (linear attention in 48 of 64 layers), so long agent contexts need little KV memory.
-- Native tool calling (needed by ChemGraph) and strong code generation (needed by Biomni).
+- Native tool calling (needed by ChemGraph).
 
 Faster alternative: [Qwen/Qwen3.6-35B-A3B-FP8](https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8)
 (MoE, 3B active parameters, ≈ 37.5 GB weights, less KV headroom).
@@ -51,8 +51,7 @@ docker run --gpus all -p 8000:8000 --ipc=host \
   --default-chat-template-kwargs '{"enable_thinking": false}'
 ```
 
-On siena01 this runs as container `vllm` (`--restart unless-stopped`), started by `/srv/llm/run.sh`;
-weights in `/srv/llm/hf`, key in `/srv/llm/env`. On the L40: 295k tokens of KV cache, ~2 full 128k contexts at once.
+On the L40: 295k tokens of KV cache, ~2 full 128k contexts at once.
 
 ## Check the endpoint
 
