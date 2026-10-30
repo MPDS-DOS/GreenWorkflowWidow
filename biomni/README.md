@@ -59,13 +59,18 @@ datasets into `$BIOMNI_DATA_PATH/biomni_data/data_lake/`; tasks that query these
 ```python
 import re
 from biomni.agent import A1
+from langgraph.errors import GraphRecursionError
 from biomni.eval import BiomniEval1
 
 agent = A1()
 evaluator = BiomniEval1()
 
 for _, row in evaluator.get_instances_by_task("crispr_delivery").iterrows():
-    log, answer = agent.go(row["prompt"])
+    try:
+        log, answer = agent.go(row["prompt"])
+    except GraphRecursionError:
+        print(row["task_instance_id"], "recursion limit")
+        continue
     m = re.search(r"<solution>(.*?)</solution>", answer, re.S)
     solution = m.group(1).strip() if m else answer.strip()
     print(row["task_instance_id"], evaluator.evaluate(row["task_name"], row["task_instance_id"], solution))
@@ -85,3 +90,6 @@ Reference run without data lake, first instance per task:
 - Generated code runs in the Biomni process and in subprocesses on the host, without a sandbox.
   The agent can install packages into the environment.
 - `BIOMNI_TIMEOUT_SECONDS` limits each code execution (default 600).
+- The agent can keep iterating without giving a final answer. After 500 steps `agent.go` raises
+  `GraphRecursionError`. In the reference run, the ADMET example produced its predictions within minutes
+  and reached the limit after about 70 min.
