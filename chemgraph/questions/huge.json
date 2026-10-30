@@ -1,1352 +1,1502 @@
 [
  {
-  "id": "water-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O. Report the optimized energy in eV."
+  "id": "Exp1-0",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 9-[(2,6-dichlorophenyl)methyl]-N-(furan-2-ylmethyl)purin-6-amine"
  },
  {
-  "id": "water-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O. Report the frequencies in cm-1."
+  "id": "Exp1-1",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: bis(2-hydroxyphenyl)phosphinic acid"
  },
  {
-  "id": "water-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O. Report the Gibbs free energy in eV."
+  "id": "Exp1-2",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N-[3-(2-ethylsulfonyl-3-phenyl-3,4-dihydropyrazol-5-yl)phenyl]methanesulfonamide"
  },
  {
-  "id": "methane-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C. Report the optimized energy in eV."
+  "id": "Exp1-3",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 6-methyl-2-(3,4,5-trimethoxyphenyl)quinoline-4-carboxylic acid"
  },
  {
-  "id": "methane-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C. Report the frequencies in cm-1."
+  "id": "Exp1-4",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: methyl 4-(4-benzoyl-2-nitroanilino)butanoate"
  },
  {
-  "id": "methane-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C. Report the Gibbs free energy in eV."
+  "id": "Exp1-5",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 1-(2-methylphenyl)-3-(3-methylpyridin-2-yl)urea"
  },
  {
-  "id": "ammonia-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: N. Report the optimized energy in eV."
+  "id": "Exp1-6",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 3-[1-[2-(4-methylphenoxy)ethyl]benzimidazol-2-yl]propan-1-ol"
  },
  {
-  "id": "ammonia-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: N. Report the frequencies in cm-1."
+  "id": "Exp1-7",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 4-bromo-N-(6-methoxy-1,3-benzothiazol-2-yl)benzenesulfonamide"
  },
  {
-  "id": "ammonia-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: N. Report the Gibbs free energy in eV."
+  "id": "Exp1-8",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 1-butyl-2-(chloromethyl)pyrrolidine"
  },
  {
-  "id": "carbon_dioxide-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O=C=O. Report the optimized energy in eV."
+  "id": "Exp1-9",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 2-(4-propoxyphenyl)ethanimidamide;hydrochloride"
  },
  {
-  "id": "carbon_dioxide-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O=C=O. Report the frequencies in cm-1."
+  "id": "Exp1-10",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 5-(4-phenylcyclohexyl)-3-propyl-1,2,4-oxadiazole"
  },
  {
-  "id": "carbon_dioxide-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: O=C=O. Report the Gibbs free energy in eV."
+  "id": "Exp1-11",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 3,8-dimethyl-6-phenyl-[1,2,4]triazolo[4,3-b]pyridazine"
  },
  {
-  "id": "methanol-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CO. Report the optimized energy in eV."
+  "id": "Exp1-12",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: cyclopropyl-(4-methoxyphenyl)-pyrimidin-5-ylmethanol"
  },
  {
-  "id": "methanol-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CO. Report the frequencies in cm-1."
+  "id": "Exp1-13",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 3-[(3-amino-5-sulfanylidene-1H-1,2,4-triazol-4-yl)amino]indol-2-one"
  },
  {
-  "id": "methanol-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CO. Report the Gibbs free energy in eV."
+  "id": "Exp1-14",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N'-[(Z)-2-amino-1,2-dicyanoethenyl]methanimidamide"
  },
  {
-  "id": "ethanol-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCO. Report the optimized energy in eV."
+  "id": "Exp1-15",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N-(5-ethylsulfanyl-1,3,4-thiadiazol-2-yl)-2-(3-methylphenoxy)acetamide"
  },
  {
-  "id": "ethanol-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCO. Report the frequencies in cm-1."
+  "id": "Exp1-16",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: methyl 6-acetyl-7-(4-chlorophenyl)-4,7-dihydrotetrazolo[1,5-a]pyrimidine-5-carboxylate"
  },
  {
-  "id": "ethanol-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCO. Report the Gibbs free energy in eV."
+  "id": "Exp1-17",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 2-(2-chloroethoxy)ethyl 2-hydroxypropanoate"
  },
  {
-  "id": "acetone-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)C. Report the optimized energy in eV."
+  "id": "Exp1-18",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 4-[5-[(Z)-(2,4-dioxo-3-prop-2-ynyl-1,3-thiazolidin-5-ylidene)methyl]furan-2-yl]-3-methylbenzoic acid"
  },
  {
-  "id": "acetone-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)C. Report the frequencies in cm-1."
+  "id": "Exp1-19",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 4-[2-(2-methylphenyl)ethenyl]thiadiazole"
  },
  {
-  "id": "acetone-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)C. Report the Gibbs free energy in eV."
+  "id": "Exp1-20",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 2-benzyl-1-(3-methylbutyl)benzimidazole"
  },
  {
-  "id": "acetic_acid-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)O. Report the optimized energy in eV."
+  "id": "Exp1-21",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 1-(3,4,5-trichlorothiophen-2-yl)propan-1-one"
  },
  {
-  "id": "acetic_acid-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp1-22",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N-heptylbicyclo[2.2.1]heptane-2-carboxamide"
  },
  {
-  "id": "acetic_acid-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp1-23",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 2-(trifluoromethyl)-6-(3,4,5-trimethoxyphenyl)imidazo[2,1-b][1,3,4]thiadiazole"
  },
  {
-  "id": "benzene-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccccc1. Report the optimized energy in eV."
+  "id": "Exp1-24",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N-methyl-N-[1-(methylamino)propan-2-yl]acetamide"
  },
  {
-  "id": "benzene-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp1-25",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: dimethyl 3-(4-chlorophenyl)-2,2-dicyanocyclopropane-1,1-dicarboxylate"
  },
  {
-  "id": "benzene-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp1-26",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: tert-butyl 3-oxo-8-azabicyclo[3.2.1]octane-8-carboxylate"
  },
  {
-  "id": "toluene-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp1-27",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: 5-methyl-2,5-diazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(15),8,10,12,16,18-hexaen-17-ol"
  },
  {
-  "id": "toluene-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp1-28",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: benzyl N-[2-(4-chlorophenyl)quinolin-4-yl]carbamate"
  },
  {
-  "id": "toluene-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp1-29",
+  "category": "Exp1",
+  "query": "Provide the SMILES string corresponding to this molecule: N-(4-acetylphenyl)-2-phenoxyacetamide"
  },
  {
-  "id": "phenol-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp2-0",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: fluoranthen-1-ylmethanol"
  },
  {
-  "id": "phenol-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp2-1",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 1-benzyl-4,6-dimethyl-2-oxopyridine-3-carbonitrile"
  },
  {
-  "id": "phenol-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp2-2",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 6-chloro-2-(3,5-dinitrophenyl)-4-phenylquinazoline"
  },
  {
-  "id": "aniline-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp2-3",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 1,3-bis(3,4-dichlorophenyl)urea"
  },
  {
-  "id": "aniline-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp2-4",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-chloro-3-methyl-4-pyrrolidin-1-ylbenzaldehyde"
  },
  {
-  "id": "aniline-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp2-5",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-pyridin-4-ylquinoline-4-carboxylic acid"
  },
  {
-  "id": "pyridine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: n1ccccc1. Report the optimized energy in eV."
+  "id": "Exp2-6",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: propyl cyanate"
  },
  {
-  "id": "pyridine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: n1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp2-7",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-(2-hydroxypropyl)-5-methylhexanehydrazide"
  },
  {
-  "id": "pyridine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: n1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp2-8",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 4-amino-1-ethylpyrazole-3-carboxamide"
  },
  {
-  "id": "furan-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccoc1. Report the optimized energy in eV."
+  "id": "Exp2-9",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-amino-4-(4-bromo-2-fluorophenyl)-5-oxo-4H-pyrano[3,2-c]chromene-3-carbonitrile"
  },
  {
-  "id": "furan-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccoc1. Report the frequencies in cm-1."
+  "id": "Exp2-10",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-bromo-N-(2-fluorophenyl)benzamide"
  },
  {
-  "id": "furan-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: c1ccoc1. Report the Gibbs free energy in eV."
+  "id": "Exp2-11",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: dichloro(phenyl)-lambda3-iodane"
  },
  {
-  "id": "formaldehyde-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C=O. Report the optimized energy in eV."
+  "id": "Exp2-12",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: HMS1581N02"
  },
  {
-  "id": "formaldehyde-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C=O. Report the frequencies in cm-1."
+  "id": "Exp2-13",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-(4-ethoxyphenoxy)ethyl 3-cyanobenzoate"
  },
  {
-  "id": "formaldehyde-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C=O. Report the Gibbs free energy in eV."
+  "id": "Exp2-14",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 3-(dimethylamino)-1-(2-fluoro-4-methoxyphenyl)propan-1-one"
  },
  {
-  "id": "formic_acid-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C(=O)O. Report the optimized energy in eV."
+  "id": "Exp2-15",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 6-chloro-3-(2-methoxyethyl)-1H-benzimidazole-2-thione"
  },
  {
-  "id": "formic_acid-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp2-16",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 3-(4-ethylanilino)-3H-2-benzofuran-1-one"
  },
  {
-  "id": "formic_acid-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp2-17",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 4-oxo-1,2,5-oxadiazole-3-carbonitrile"
  },
  {
-  "id": "glycine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NCC(=O)O. Report the optimized energy in eV."
+  "id": "Exp2-18",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2,6-bis(furan-2-yl)-4-methyl-3-propylpiperidin-4-ol;oxalic acid"
  },
  {
-  "id": "glycine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NCC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp2-19",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 4-tert-butyl-2,3,4,5-tetrahydro-1H-3-benzazepine"
  },
  {
-  "id": "glycine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NCC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp2-20",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 7-chloro-5-methyl-2-(trifluoromethyl)-[1,2,4]triazolo[1,5-a]pyrimidine"
  },
  {
-  "id": "alanine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp2-21",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 6-bromo-8-chloro-4-methyl-2-oxochromene-3-carbonitrile"
  },
  {
-  "id": "alanine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp2-22",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: N-(2-fluorophenyl)-2-thiophen-2-ylacetamide"
  },
  {
-  "id": "alanine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp2-23",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 6-bromo-3-(4-bromophenyl)-4-methylchromen-2-one"
  },
  {
-  "id": "urea-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NC(=O)N. Report the optimized energy in eV."
+  "id": "Exp2-24",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: N-(5,5-dimethyl-7-oxo-4,6-dihydro-1,3-benzothiazol-2-yl)benzenesulfonamide"
  },
  {
-  "id": "urea-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NC(=O)N. Report the frequencies in cm-1."
+  "id": "Exp2-25",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: (4-heptylphenyl)boronic acid"
  },
  {
-  "id": "urea-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: NC(=O)N. Report the Gibbs free energy in eV."
+  "id": "Exp2-26",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: [4-(4-chlorophenyl)-1H-pyrrol-3-yl]-phenylmethanone"
  },
  {
-  "id": "acetonitrile-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC#N. Report the optimized energy in eV."
+  "id": "Exp2-27",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: N-[2-(2-methylphenyl)-4,6-dihydrothieno[3,4-c]pyrazol-3-yl]-4-nitrobenzamide"
  },
  {
-  "id": "acetonitrile-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC#N. Report the frequencies in cm-1."
+  "id": "Exp2-28",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 2-(1,3-benzodioxol-5-yl)-5-(5-chloro-2-methoxyphenyl)-1,3,4-oxadiazole"
  },
  {
-  "id": "acetonitrile-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC#N. Report the Gibbs free energy in eV."
+  "id": "Exp2-29",
+  "category": "Exp2",
+  "query": "Provide the XYZ coordinates corresponding to this molecule: 5-chloro-1-[(2,4-dichlorophenyl)methyl]-2-oxo-N-[4-(trifluoromethyl)phenyl]pyridine-3-carboxamide"
  },
  {
-  "id": "aspirin-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the optimized energy in eV."
+  "id": "Exp4-0",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 3-methyl-1,2,4-trithiolane using mace_mp"
  },
  {
-  "id": "aspirin-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp4-1",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-nitropropane using mace_mp"
  },
  {
-  "id": "aspirin-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp4-2",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-ethylsulfanyl-4,5-dihydro-1H-imidazole using mace_mp"
  },
  {
-  "id": "ibuprofen-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp4-3",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-thiophosphorosoacetic acid using mace_mp"
  },
  {
-  "id": "ibuprofen-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp4-4",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule (E)-3-(5-bromo-2-fluorophenyl)prop-2-enoic acid using mace_mp"
  },
  {
-  "id": "ibuprofen-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp4-5",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-hydroxy-1H-pyridin-4-one using mace_mp"
  },
  {
-  "id": "acetaminophen-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the optimized energy in eV."
+  "id": "Exp4-6",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule methyl 5-amino-4-cyanopyrazole-1-carboxylate using mace_mp"
  },
  {
-  "id": "acetaminophen-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the frequencies in cm-1."
+  "id": "Exp4-7",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-hydroxy-2-methylbutanedioic acid using mace_mp"
  },
  {
-  "id": "acetaminophen-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the Gibbs free energy in eV."
+  "id": "Exp4-8",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-bromo-1-(2,3,4-trichlorophenyl)ethanone using mace_mp"
  },
  {
-  "id": "caffeine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the optimized energy in eV."
+  "id": "Exp4-9",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 4-chlorobenzaldehyde using mace_mp"
  },
  {
-  "id": "caffeine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the frequencies in cm-1."
+  "id": "Exp4-10",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule (E)-4-(dimethylamino)-4-oxobut-2-enoic acid using mace_mp"
  },
  {
-  "id": "caffeine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the Gibbs free energy in eV."
+  "id": "Exp4-11",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 1,2-dichloro-2-fluoropropane using mace_mp"
  },
  {
-  "id": "theophylline-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the optimized energy in eV."
+  "id": "Exp4-12",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule trichloro(dichloromethyl)silane using mace_mp"
  },
  {
-  "id": "theophylline-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the frequencies in cm-1."
+  "id": "Exp4-13",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule methyl 5-bromothiadiazole-4-carboxylate using mace_mp"
  },
  {
-  "id": "theophylline-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the Gibbs free energy in eV."
+  "id": "Exp4-14",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 1-imidazol-1-ylsulfonylimidazole using mace_mp"
  },
  {
-  "id": "nicotine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the optimized energy in eV."
+  "id": "Exp4-15",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 6-methyl-2,3-dihydrothieno[2,3-c]furan using mace_mp"
  },
  {
-  "id": "nicotine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the frequencies in cm-1."
+  "id": "Exp4-16",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-methyl-5-nitropyridine-3-carboxylate using mace_mp"
  },
  {
-  "id": "nicotine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the Gibbs free energy in eV."
+  "id": "Exp4-17",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 5-bromo-2,1,3-benzothiadiazol-4-amine using mace_mp"
  },
  {
-  "id": "metformin-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the optimized energy in eV."
+  "id": "Exp4-18",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule N'-hydroxyfuran-2-carboximidamide using mace_mp"
  },
  {
-  "id": "metformin-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the frequencies in cm-1."
+  "id": "Exp4-19",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 3,5-dichlorobenzamide using mace_mp"
  },
  {
-  "id": "metformin-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the Gibbs free energy in eV."
+  "id": "Exp4-20",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-amino-6H-1,3,4-thiadiazine-5-carboxylic acid using mace_mp"
  },
  {
-  "id": "lidocaine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the optimized energy in eV."
+  "id": "Exp4-21",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2,2-dichloro-N-phenylacetamide using mace_mp"
  },
  {
-  "id": "lidocaine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the frequencies in cm-1."
+  "id": "Exp4-22",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule N-(4-chlorophenyl)-1-cyanoformamide using mace_mp"
  },
  {
-  "id": "lidocaine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the Gibbs free energy in eV."
+  "id": "Exp4-23",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 2-bromo-4-fluorobenzonitrile using mace_mp"
  },
  {
-  "id": "diazepam-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the optimized energy in eV."
+  "id": "Exp4-24",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 1,5-dimethylpyrazole-4-carbonyl chloride using mace_mp"
  },
  {
-  "id": "diazepam-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the frequencies in cm-1."
+  "id": "Exp4-25",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 4-(1,3-oxazol-5-yl)benzonitrile using mace_mp"
  },
  {
-  "id": "diazepam-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the Gibbs free energy in eV."
+  "id": "Exp4-26",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule Methoxy(methyl)chlorosilane using mace_mp"
  },
  {
-  "id": "paroxetine-opt-small-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the optimized energy in eV."
+  "id": "Exp4-27",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule 1-methylcyclobutan-1-ol using mace_mp"
  },
  {
-  "id": "paroxetine-vib-small-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the frequencies in cm-1."
+  "id": "Exp4-28",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule (4-hydroxyphenyl)urea using mace_mp"
  },
  {
-  "id": "paroxetine-thermo-small-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the small-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the Gibbs free energy in eV."
+  "id": "Exp4-29",
+  "category": "Exp4",
+  "query": "Run vibrational frequency calculation for a molecule N-(4,5-dihydro-1H-imidazol-2-yl)nitramide using mace_mp"
  },
  {
-  "id": "water-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O. Report the optimized energy in eV."
+  "id": "Exp5-0",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2-(7-methoxy-1-benzofuran-3-yl)acetic acid using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "water-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O. Report the frequencies in cm-1."
+  "id": "Exp5-1",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4-[(2-nitropyridin-3-yl)oxymethyl]benzonitrile using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "water-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O. Report the Gibbs free energy in eV."
+  "id": "Exp5-2",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule N-[(2-chlorophenyl)methyl]-1-pyridin-4-ylmethanamine using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methane-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C. Report the optimized energy in eV."
+  "id": "Exp5-3",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule (E)-3-(3,4-dihydroxy-5-methoxyphenyl)prop-2-enoic acid using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methane-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C. Report the frequencies in cm-1."
+  "id": "Exp5-4",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule pyridin-2-yl(triazolo[1,5-a]pyridin-3-yl)methanone using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methane-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C. Report the Gibbs free energy in eV."
+  "id": "Exp5-5",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 1-chloro-1-(1,2,2-trichloroethenyl)cyclopropane using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ammonia-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: N. Report the optimized energy in eV."
+  "id": "Exp5-6",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2-(4-iodophenoxy)ethanol using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ammonia-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: N. Report the frequencies in cm-1."
+  "id": "Exp5-7",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4-chloro-N-[(4-fluorophenyl)methyl]-1-methylpyrazole-3-carboxamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ammonia-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: N. Report the Gibbs free energy in eV."
+  "id": "Exp5-8",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2-bromo-N-(4-fluorophenyl)propanamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "carbon_dioxide-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O=C=O. Report the optimized energy in eV."
+  "id": "Exp5-9",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule oxecane-2,10-dione using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "carbon_dioxide-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O=C=O. Report the frequencies in cm-1."
+  "id": "Exp5-10",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 1-(1-methylpyrazol-3-yl)-3-phenylurea using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "carbon_dioxide-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: O=C=O. Report the Gibbs free energy in eV."
+  "id": "Exp5-11",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4,9-dimethoxy-5H-pyrimido[5,4-b]indole using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methanol-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CO. Report the optimized energy in eV."
+  "id": "Exp5-12",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2-(1-hydroxybut-2-enyl)naphthalene-1,4-dione using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methanol-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CO. Report the frequencies in cm-1."
+  "id": "Exp5-13",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 1-(4-nitrophenyl)-5-(trifluoromethyl)pyrazole-4-carbonyl chloride using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "methanol-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CO. Report the Gibbs free energy in eV."
+  "id": "Exp5-14",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2,5-dimethyl-1,8-naphthyridine using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ethanol-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCO. Report the optimized energy in eV."
+  "id": "Exp5-15",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule (5Z)-5-[(2-hydroxyphenyl)methylidene]-2-sulfanylidene-1,3-thiazolidin-4-one using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ethanol-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCO. Report the frequencies in cm-1."
+  "id": "Exp5-16",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule N'-hydroxy-2-(1-methylbenzimidazol-2-yl)ethanimidamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "ethanol-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCO. Report the Gibbs free energy in eV."
+  "id": "Exp5-17",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 8,8-dimethylbicyclo[3.2.1]octan-2-one using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetone-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)C. Report the optimized energy in eV."
+  "id": "Exp5-18",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2,6-dimethyl-4-(3-nitrophenyl)pyridine using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetone-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)C. Report the frequencies in cm-1."
+  "id": "Exp5-19",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule ethyl 2-(1,4-dimethylpyrrol-2-yl)acetate using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetone-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)C. Report the Gibbs free energy in eV."
+  "id": "Exp5-20",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 3-[5-(2,3-dichlorophenyl)furan-2-yl]prop-2-enal using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetic_acid-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)O. Report the optimized energy in eV."
+  "id": "Exp5-21",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule (2S)-2-amino-3-(4-iodo-1H-imidazol-5-yl)propanoic acid using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetic_acid-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp5-22",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4-fluoro-N'-phenylbenzohydrazide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "acetic_acid-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp5-23",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4-fluoro-N'-hydroxybenzenecarboximidamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "benzene-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccccc1. Report the optimized energy in eV."
+  "id": "Exp5-24",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 1-methyl-4,10-dioxatricyclo[5.2.1.02,6]dec-8-ene-3,5-dione using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "benzene-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp5-25",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 2-amino-2-(furan-2-yl)acetamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "benzene-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp5-26",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule N-[(hydroxyamino)methylidene]benzenecarbothioamide using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "toluene-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp5-27",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule methyl 2-amino-3-(4-chlorophenyl)propanoate using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "toluene-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp5-28",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 4-nitrobenzene-1,2,3-triol using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "toluene-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp5-29",
+  "category": "Exp5",
+  "query": "Calculate the Gibbs free energy of a molecule 5,6-dinitro-1H-indazole using GFN2-xTB at a temperature of 800K"
  },
  {
-  "id": "phenol-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp6-0",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2,3,3,3-tetrafluoropropanoic acid using mace_mp. Save the optimized coordinate in an XYZ file named 2,3,3,3-tetrafluoropropanoic acid.xyz"
  },
  {
-  "id": "phenol-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp6-1",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-(5-chloropyridin-2-yl)-1H-quinolin-4-one using mace_mp. Save the optimized coordinate in an XYZ file named 2-(5-chloropyridin-2-yl)-1H-quinolin-4-one.xyz"
  },
  {
-  "id": "phenol-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp6-2",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 3-(4-methylphenyl)-5-pyridin-4-yl-1,2,4-oxadiazole using mace_mp. Save the optimized coordinate in an XYZ file named 3-(4-methylphenyl)-5-pyridin-4-yl-1,2,4-oxadiazole.xyz"
  },
  {
-  "id": "aniline-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp6-3",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 4-bromo-6,8-dioxabicyclo[3.2.1]octane using mace_mp. Save the optimized coordinate in an XYZ file named 4-bromo-6,8-dioxabicyclo[3.2.1]octane.xyz"
  },
  {
-  "id": "aniline-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp6-4",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-[4-(hydroxymethyl)phenoxy]acetic acid using mace_mp. Save the optimized coordinate in an XYZ file named 2-[4-(hydroxymethyl)phenoxy]acetic acid.xyz"
  },
  {
-  "id": "aniline-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp6-5",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 5-(5-fluoro-2-methoxyphenyl)-1H-pyrazol-3-amine using mace_mp. Save the optimized coordinate in an XYZ file named 5-(5-fluoro-2-methoxyphenyl)-1H-pyrazol-3-amine.xyz"
  },
  {
-  "id": "pyridine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: n1ccccc1. Report the optimized energy in eV."
+  "id": "Exp6-6",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule O-ethyl N-prop-2-enylcarbamothioate using mace_mp. Save the optimized coordinate in an XYZ file named O-ethyl N-prop-2-enylcarbamothioate.xyz"
  },
  {
-  "id": "pyridine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: n1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp6-7",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-[difluoromethyl(propan-2-yloxy)phosphoryl]oxypropane using mace_mp. Save the optimized coordinate in an XYZ file named 2-[difluoromethyl(propan-2-yloxy)phosphoryl]oxypropane.xyz"
  },
  {
-  "id": "pyridine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: n1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp6-8",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 4-hydroxy-3-methyl-2-prop-2-enylcyclopent-2-en-1-one using mace_mp. Save the optimized coordinate in an XYZ file named 4-hydroxy-3-methyl-2-prop-2-enylcyclopent-2-en-1-one.xyz"
  },
  {
-  "id": "furan-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccoc1. Report the optimized energy in eV."
+  "id": "Exp6-9",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-ethyl-4-phenyl-1,3-thiazole using mace_mp. Save the optimized coordinate in an XYZ file named 2-ethyl-4-phenyl-1,3-thiazole.xyz"
  },
  {
-  "id": "furan-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccoc1. Report the frequencies in cm-1."
+  "id": "Exp6-10",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule (2E,4Z)-3-chlorohexa-2,4-dienedioate using mace_mp. Save the optimized coordinate in an XYZ file named (2E,4Z)-3-chlorohexa-2,4-dienedioate.xyz"
  },
  {
-  "id": "furan-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: c1ccoc1. Report the Gibbs free energy in eV."
+  "id": "Exp6-11",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule (E)-1-(5-bromo-2-hydroxyphenyl)-3-(4-fluorophenyl)prop-2-en-1-one using mace_mp. Save the optimized coordinate in an XYZ file named (E)-1-(5-bromo-2-hydroxyphenyl)-3-(4-fluorophenyl)prop-2-en-1-one.xyz"
  },
  {
-  "id": "formaldehyde-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C=O. Report the optimized energy in eV."
+  "id": "Exp6-12",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 12,16-dioxatetracyclo[11.2.1.02,11.03,8]hexadeca-2(11),3,5,7,9-pentaene using mace_mp. Save the optimized coordinate in an XYZ file named 12,16-dioxatetracyclo[11.2.1.02,11.03,8]hexadeca-2(11),3,5,7,9-pentaene.xyz"
  },
  {
-  "id": "formaldehyde-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C=O. Report the frequencies in cm-1."
+  "id": "Exp6-13",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-thiophen-2-yl-3,1-benzoxazin-4-one using mace_mp. Save the optimized coordinate in an XYZ file named 2-thiophen-2-yl-3,1-benzoxazin-4-one.xyz"
  },
  {
-  "id": "formaldehyde-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C=O. Report the Gibbs free energy in eV."
+  "id": "Exp6-14",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 6-pyridin-2-ylpyridine-3-sulfonic acid using mace_mp. Save the optimized coordinate in an XYZ file named 6-pyridin-2-ylpyridine-3-sulfonic acid.xyz"
  },
  {
-  "id": "formic_acid-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C(=O)O. Report the optimized energy in eV."
+  "id": "Exp6-15",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-nitro-4-(trifluoromethyl)benzenesulfonyl chloride using mace_mp. Save the optimized coordinate in an XYZ file named 2-nitro-4-(trifluoromethyl)benzenesulfonyl chloride.xyz"
  },
  {
-  "id": "formic_acid-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp6-16",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule imidazol-1-yl-(4-methylphenyl)methanone using mace_mp. Save the optimized coordinate in an XYZ file named imidazol-1-yl-(4-methylphenyl)methanone.xyz"
  },
  {
-  "id": "formic_acid-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp6-17",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 1-(benzotriazol-1-yl)propan-1-one using mace_mp. Save the optimized coordinate in an XYZ file named 1-(benzotriazol-1-yl)propan-1-one.xyz"
  },
  {
-  "id": "glycine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NCC(=O)O. Report the optimized energy in eV."
+  "id": "Exp6-18",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule dimethylarsinate using mace_mp. Save the optimized coordinate in an XYZ file named dimethylarsinate.xyz"
  },
  {
-  "id": "glycine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NCC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp6-19",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 3-(trifluoromethyl)aniline using mace_mp. Save the optimized coordinate in an XYZ file named 3-(trifluoromethyl)aniline.xyz"
  },
  {
-  "id": "glycine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NCC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp6-20",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-(3,3-dimethyloxiran-2-yl)-1-oxidopyridin-1-ium using mace_mp. Save the optimized coordinate in an XYZ file named 2-(3,3-dimethyloxiran-2-yl)-1-oxidopyridin-1-ium.xyz"
  },
  {
-  "id": "alanine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp6-21",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-methylpyrimido[4,5-d]pyrimidin-5-amine using mace_mp. Save the optimized coordinate in an XYZ file named 2-methylpyrimido[4,5-d]pyrimidin-5-amine.xyz"
  },
  {
-  "id": "alanine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp6-22",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-ethylsulfanyl-3-nitropyridine using mace_mp. Save the optimized coordinate in an XYZ file named 2-ethylsulfanyl-3-nitropyridine.xyz"
  },
  {
-  "id": "alanine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp6-23",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2,2-dimethyl-3H-benzo[g][1]benzofuran-4,5-dione using mace_mp. Save the optimized coordinate in an XYZ file named 2,2-dimethyl-3H-benzo[g][1]benzofuran-4,5-dione.xyz"
  },
  {
-  "id": "urea-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NC(=O)N. Report the optimized energy in eV."
+  "id": "Exp6-24",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-methyl-3-phenylprop-2-enehydrazide using mace_mp. Save the optimized coordinate in an XYZ file named 2-methyl-3-phenylprop-2-enehydrazide.xyz"
  },
  {
-  "id": "urea-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NC(=O)N. Report the frequencies in cm-1."
+  "id": "Exp6-25",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 1-(4-hydroxyphenyl)-2,5-dimethylpyrrole-3-carbaldehyde using mace_mp. Save the optimized coordinate in an XYZ file named 1-(4-hydroxyphenyl)-2,5-dimethylpyrrole-3-carbaldehyde.xyz"
  },
  {
-  "id": "urea-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: NC(=O)N. Report the Gibbs free energy in eV."
+  "id": "Exp6-26",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 2-amino-4-phenyl-1,3-thiazole-5-carbohydrazide using mace_mp. Save the optimized coordinate in an XYZ file named 2-amino-4-phenyl-1,3-thiazole-5-carbohydrazide.xyz"
  },
  {
-  "id": "acetonitrile-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC#N. Report the optimized energy in eV."
+  "id": "Exp6-27",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 1-ethyl-3-(2-nitroanilino)thiourea using mace_mp. Save the optimized coordinate in an XYZ file named 1-ethyl-3-(2-nitroanilino)thiourea.xyz"
  },
  {
-  "id": "acetonitrile-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC#N. Report the frequencies in cm-1."
+  "id": "Exp6-28",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule ethyl (2R)-2-acetamido-2-cyanoacetate using mace_mp. Save the optimized coordinate in an XYZ file named ethyl (2R)-2-acetamido-2-cyanoacetate.xyz"
  },
  {
-  "id": "acetonitrile-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC#N. Report the Gibbs free energy in eV."
+  "id": "Exp6-29",
+  "category": "Exp6",
+  "query": "Perform geometry optimization for a molecule 1,3,4-trichloro-1-(1,1,2-trichloroethyl)cyclohexane using mace_mp. Save the optimized coordinate in an XYZ file named 1,3,4-trichloro-1-(1,1,2-trichloroethyl)cyclohexane.xyz"
  },
  {
-  "id": "aspirin-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the optimized energy in eV."
+  "id": "Exp7-0",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC(=CC(=C1)C(F)(F)F)C(=O)NC2=CC=C(C=C2)Br"
  },
  {
-  "id": "aspirin-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp7-1",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1CCN(CC1)CCBr"
  },
  {
-  "id": "aspirin-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp7-2",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C(C=O)C(=O)CCl"
  },
  {
-  "id": "ibuprofen-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp7-3",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1CN(C2=CC=CC=C21)C(=O)CSC3=NC=CN3C4=CC=C(C=C4)Cl"
  },
  {
-  "id": "ibuprofen-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp7-4",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC=C(C=C1)CNCC2=C(C=CC(=C2)Br)O"
  },
  {
-  "id": "ibuprofen-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp7-5",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=C(C(=O)NC(=N1)C2=CC=CC=C2)CCO"
  },
  {
-  "id": "acetaminophen-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the optimized energy in eV."
+  "id": "Exp7-6",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=CN=C(C=N1)C(=O)NC2=CC3=CC=CC=C3C=C2"
  },
  {
-  "id": "acetaminophen-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the frequencies in cm-1."
+  "id": "Exp7-7",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: COC1=C(C=C(C=C1)Cl)C(=O)NC2=CC(=C(C=C2)C3=NC4=C(O3)C=CC(=C4)Cl)O"
  },
  {
-  "id": "acetaminophen-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the Gibbs free energy in eV."
+  "id": "Exp7-8",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC(=CC(=C1)NC(=O)C2=CC(=CC=C2)Cl)C3=NN4C=NN=C4C=C3"
  },
  {
-  "id": "caffeine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the optimized energy in eV."
+  "id": "Exp7-9",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1CCC(CC1)NC(=S)NC2=C(C(=C(C=C2)F)F)F"
  },
  {
-  "id": "caffeine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the frequencies in cm-1."
+  "id": "Exp7-10",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C=CCNC(=O)C1=CC(=NN1C2=CC=CC=C2)C3=CC=CC=C3"
  },
  {
-  "id": "caffeine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the Gibbs free energy in eV."
+  "id": "Exp7-11",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCC(C)NS(=O)(=O)C1=CC=C(C=C1)C"
  },
  {
-  "id": "theophylline-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the optimized energy in eV."
+  "id": "Exp7-12",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCC(C1=CC=CC=C1)NC(=O)NC2=CC=C(C=C2)C#N"
  },
  {
-  "id": "theophylline-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the frequencies in cm-1."
+  "id": "Exp7-13",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCCCCCCCC=C(C(C(Br)Br)O)Br"
  },
  {
-  "id": "theophylline-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the Gibbs free energy in eV."
+  "id": "Exp7-14",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC(C)(C)OC(=O)NC(CC1=CC=CC=C1)CC(=O)O"
  },
  {
-  "id": "nicotine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the optimized energy in eV."
+  "id": "Exp7-15",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=CC(=C(C=C1)C)NC(=O)C2=CC3=C(C=C2)OCO3"
  },
  {
-  "id": "nicotine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the frequencies in cm-1."
+  "id": "Exp7-16",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=CC2=C(CC(C2)N)C=C1OC"
  },
  {
-  "id": "nicotine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the Gibbs free energy in eV."
+  "id": "Exp7-17",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCN1C(=O)C(=CC2=CC3=C(C=C2)SC(=N3)C)SC1=S"
  },
  {
-  "id": "metformin-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the optimized energy in eV."
+  "id": "Exp7-18",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCNC(=S)NC1CCN(CC1)CC2=CC=CC=C2"
  },
  {
-  "id": "metformin-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the frequencies in cm-1."
+  "id": "Exp7-19",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: COC1=CC=C(C=C1)N2C(=NN=C2SC)C3=CC=CS3"
  },
  {
-  "id": "metformin-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the Gibbs free energy in eV."
+  "id": "Exp7-20",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=CC=C(C=C1)NC(=S)NOCC2=CC=CC=C2"
  },
  {
-  "id": "lidocaine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the optimized energy in eV."
+  "id": "Exp7-21",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC1=CC=C(C=C1)C=C(C#N)C2=NC(=CS2)C3=CC=C(C=C3)CC(C)C"
  },
  {
-  "id": "lidocaine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the frequencies in cm-1."
+  "id": "Exp7-22",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC=C(C=C1)COC(=O)NC2=CC=CC=C2[N+](=O)[O-]"
  },
  {
-  "id": "lidocaine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the Gibbs free energy in eV."
+  "id": "Exp7-23",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCN1C2=C(C(=NC=N2)N3CCN(CC3)C(=O)OCC)N=N1"
  },
  {
-  "id": "diazepam-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the optimized energy in eV."
+  "id": "Exp7-24",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CC(C(C(=O)C)C(=O)C)N1C2=CC=CC=C2N=N1"
  },
  {
-  "id": "diazepam-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the frequencies in cm-1."
+  "id": "Exp7-25",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=COC(=C1)C=NNC(=O)COC2=C(C=C(C=C2Br)Br)Br"
  },
  {
-  "id": "diazepam-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the Gibbs free energy in eV."
+  "id": "Exp7-26",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC=C(C=C1)C2=NNC(=O)NN2"
  },
  {
-  "id": "paroxetine-opt-medium-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the optimized energy in eV."
+  "id": "Exp7-27",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: CCC(COC(=O)C1=CN=CC=C1)N"
  },
  {
-  "id": "paroxetine-vib-medium-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the frequencies in cm-1."
+  "id": "Exp7-28",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1CNCCC1CNC(=O)C(=O)NCCC2=CC=CC=C2"
  },
  {
-  "id": "paroxetine-thermo-medium-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the medium-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the Gibbs free energy in eV."
+  "id": "Exp7-29",
+  "category": "Exp7",
+  "query": "Provide the XYZ coordinates corresponding to this SMILES string: C1=CC=C(C(=C1)C=NNC(=O)C2=CC3=C(C=C2)N=CN3)[N+](=O)[O-]"
  },
  {
-  "id": "water-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O. Report the optimized energy in eV."
+  "id": "Exp9-0",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C(C(=C1)C[NH3+])C(=O)[O-] using mace_mp"
  },
  {
-  "id": "water-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O. Report the frequencies in cm-1."
+  "id": "Exp9-1",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string COC(=O)C1=NC(=NN1)N using mace_mp"
  },
  {
-  "id": "water-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O. Report the Gibbs free energy in eV."
+  "id": "Exp9-2",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=C(C(=C(N1)C)C(=O)OC)C2=CC=NN2 using mace_mp"
  },
  {
-  "id": "methane-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C. Report the optimized energy in eV."
+  "id": "Exp9-3",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string B1N(N=NN1C2=CC=C(C=C2)Cl)C3=CC=C(C=C3)Cl using mace_mp"
  },
  {
-  "id": "methane-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C. Report the frequencies in cm-1."
+  "id": "Exp9-4",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC(=CC=C1C(Br)(Br)Br)Br using mace_mp"
  },
  {
-  "id": "methane-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C. Report the Gibbs free energy in eV."
+  "id": "Exp9-5",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC(C)C(=O)OCC1=CC=CC=C1 using mace_mp"
  },
  {
-  "id": "ammonia-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: N. Report the optimized energy in eV."
+  "id": "Exp9-6",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C2C=C3C(=CC=C(C3=CC2=C1)Cl)Cl using mace_mp"
  },
  {
-  "id": "ammonia-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: N. Report the frequencies in cm-1."
+  "id": "Exp9-7",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC(=C(C=C1Br)Br)C(=O)C2=CN(N=N2)O using mace_mp"
  },
  {
-  "id": "ammonia-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: N. Report the Gibbs free energy in eV."
+  "id": "Exp9-8",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C(C(=C1)NC(=O)C2=CC=C(C=C2)C#N)F using mace_mp"
  },
  {
-  "id": "carbon_dioxide-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O=C=O. Report the optimized energy in eV."
+  "id": "Exp9-9",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CCCC(C1=CC=CC=C1Cl)OC=O using mace_mp"
  },
  {
-  "id": "carbon_dioxide-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O=C=O. Report the frequencies in cm-1."
+  "id": "Exp9-10",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1CCC(=O)OCCCC(=O)C1 using mace_mp"
  },
  {
-  "id": "carbon_dioxide-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: O=C=O. Report the Gibbs free energy in eV."
+  "id": "Exp9-11",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1C(=O)CC(=O)C1=O using mace_mp"
  },
  {
-  "id": "methanol-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CO. Report the optimized energy in eV."
+  "id": "Exp9-12",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=CC=C(C=C1)S(=O)(=O)NC2=NC=CS2 using mace_mp"
  },
  {
-  "id": "methanol-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CO. Report the frequencies in cm-1."
+  "id": "Exp9-13",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=C(C(=NN1C(F)F)C)C(=O)O using mace_mp"
  },
  {
-  "id": "methanol-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CO. Report the Gibbs free energy in eV."
+  "id": "Exp9-14",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C(C=C1)S(=O)(=O)NCCCBr using mace_mp"
  },
  {
-  "id": "ethanol-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCO. Report the optimized energy in eV."
+  "id": "Exp9-15",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC(=O)C1=C(C=C2C(=C1O)C(=CC(=O)C2=O)O)O using mace_mp"
  },
  {
-  "id": "ethanol-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCO. Report the frequencies in cm-1."
+  "id": "Exp9-16",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC(=CC=C1C(=O)NC2=CC=NC=C2)Cl using mace_mp"
  },
  {
-  "id": "ethanol-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCO. Report the Gibbs free energy in eV."
+  "id": "Exp9-17",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=C(C2=NSN=C2C=C1)S(=O)(=O)Cl using mace_mp"
  },
  {
-  "id": "acetone-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)C. Report the optimized energy in eV."
+  "id": "Exp9-18",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1(COC(N1)C2=CC(=CC=C2)Cl)C using mace_mp"
  },
  {
-  "id": "acetone-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)C. Report the frequencies in cm-1."
+  "id": "Exp9-19",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=CC(=NN1)C2=NNC(=S)N2N=CC3=CC=CS3 using mace_mp"
  },
  {
-  "id": "acetone-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)C. Report the Gibbs free energy in eV."
+  "id": "Exp9-20",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1OC2=C(O1)C=C(C=C2)C3=NN=C(O3)C4=CC=C(O4)Br using mace_mp"
  },
  {
-  "id": "acetic_acid-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)O. Report the optimized energy in eV."
+  "id": "Exp9-21",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1C2=CC(=CC(=C2OC1=O)C)C using mace_mp"
  },
  {
-  "id": "acetic_acid-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp9-22",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC(C(=O)C1=C(C=C(C=C1)Cl)Cl)N2C=CN=C2.Cl using mace_mp"
  },
  {
-  "id": "acetic_acid-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp9-23",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string COC1=C(C=C(C(=O)N1)[N+](=O)[O-])C#N using mace_mp"
  },
  {
-  "id": "benzene-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccccc1. Report the optimized energy in eV."
+  "id": "Exp9-24",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC=C(C)C1=CC=C(C=C1)OC(=O)C using mace_mp"
  },
  {
-  "id": "benzene-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp9-25",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C(C(=C1)C(F)(F)F)NC(=O)C2=C(C=CC=C2Cl)Cl using mace_mp"
  },
  {
-  "id": "benzene-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp9-26",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string CC1=C(C(=N)OC2=CC=CC=C12)C(=O)O using mace_mp"
  },
  {
-  "id": "toluene-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp9-27",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC(=CC(=C1)[As](Br)Br)[N+](=O)[O-] using mace_mp"
  },
  {
-  "id": "toluene-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp9-28",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1CC(C(C1)O)N2C=NC3=C2NC=NC3=S using mace_mp"
  },
  {
-  "id": "toluene-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Cc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp9-29",
+  "category": "Exp9",
+  "query": "Run vibrational frequency calculation for this SMILES string C1=CC=C(C=C1)OC(=O)SC2=CC=CC=C2 using mace_mp"
  },
  {
-  "id": "phenol-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp10-0",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=C2C(=C1)C(=NS2(=O)=O)OC3=CC=CC=C3Cl using mace_mp at T=800K"
  },
  {
-  "id": "phenol-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp10-1",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=C(C=C1)N=[N+](C2=CC=CC=C2)[O-] using mace_mp at T=800K"
  },
  {
-  "id": "phenol-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Oc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp10-2",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=C(C(=C1)NS(=O)(=O)C2=CC(=C(C=C2)Cl)N)F using mace_mp at T=800K"
  },
  {
-  "id": "aniline-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the optimized energy in eV."
+  "id": "Exp10-3",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C#CC1(CCCCC1)N using mace_mp at T=800K"
  },
  {
-  "id": "aniline-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp10-4",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=C2C(=C1)C3=CC=CC=C3C4=C2N=C(N=N4)Cl using mace_mp at T=800K"
  },
  {
-  "id": "aniline-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: Nc1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp10-5",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CN1CCCCC1CO using mace_mp at T=800K"
  },
  {
-  "id": "pyridine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: n1ccccc1. Report the optimized energy in eV."
+  "id": "Exp10-6",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CCOC(=O)C1=C[N+](=CC=C1)[O-] using mace_mp at T=800K"
  },
  {
-  "id": "pyridine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: n1ccccc1. Report the frequencies in cm-1."
+  "id": "Exp10-7",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC1=C(C=CC(=C1)OC2=C(C(=CC=C2)Cl)C#N)Cl using mace_mp at T=800K"
  },
  {
-  "id": "pyridine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: n1ccccc1. Report the Gibbs free energy in eV."
+  "id": "Exp10-8",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CCOC(=O)C(CC1=C(C=CC=C1Cl)Cl)N using mace_mp at T=800K"
  },
  {
-  "id": "furan-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccoc1. Report the optimized energy in eV."
+  "id": "Exp10-9",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1COC(=C1C#N)NC(=O)C2=CC=CC=C2I using mace_mp at T=800K"
  },
  {
-  "id": "furan-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccoc1. Report the frequencies in cm-1."
+  "id": "Exp10-10",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC(CC=O)C1=CC=CC=C1 using mace_mp at T=800K"
  },
  {
-  "id": "furan-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: c1ccoc1. Report the Gibbs free energy in eV."
+  "id": "Exp10-11",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C=C1CC1C(C(=O)O)N using mace_mp at T=800K"
  },
  {
-  "id": "formaldehyde-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C=O. Report the optimized energy in eV."
+  "id": "Exp10-12",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CSC(=C1)C2=NC(=NC=C2)NC(=S)N using mace_mp at T=800K"
  },
  {
-  "id": "formaldehyde-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C=O. Report the frequencies in cm-1."
+  "id": "Exp10-13",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC(=CC1=CC=C(O1)[N+](=O)[O-])C(=O)OC using mace_mp at T=800K"
  },
  {
-  "id": "formaldehyde-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C=O. Report the Gibbs free energy in eV."
+  "id": "Exp10-14",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CN1C2=C(C=C(C=C2)Br)C3=C1C(=CC(=C3)Br)Br using mace_mp at T=800K"
  },
  {
-  "id": "formic_acid-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C(=O)O. Report the optimized energy in eV."
+  "id": "Exp10-15",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC1=C(C(=O)N2C=C(C=CC2=N1)Br)Cl using mace_mp at T=800K"
  },
  {
-  "id": "formic_acid-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp10-16",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=C(C(=C1)C(F)(F)F)NC(=O)C2=C(N=CC=C2)Cl using mace_mp at T=800K"
  },
  {
-  "id": "formic_acid-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp10-17",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=C(C(=NC(=N1)F)F)Br using mace_mp at T=800K"
  },
  {
-  "id": "glycine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NCC(=O)O. Report the optimized energy in eV."
+  "id": "Exp10-18",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC(=CC(=C1)Cl)C(=S)N using mace_mp at T=800K"
  },
  {
-  "id": "glycine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NCC(=O)O. Report the frequencies in cm-1."
+  "id": "Exp10-19",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1CC2(CCC1C2(Br)Br)I using mace_mp at T=800K"
  },
  {
-  "id": "glycine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NCC(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp10-20",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC(C)C(=O)C1=CC(=NC=C1)Cl using mace_mp at T=800K"
  },
  {
-  "id": "alanine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp10-21",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC=CC(=O)N1C(COC1=O)C(C)C using mace_mp at T=800K"
  },
  {
-  "id": "alanine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp10-22",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=COC(=C1)CNC2=C(N=C(O2)C3=CC=CO3)C#N using mace_mp at T=800K"
  },
  {
-  "id": "alanine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(N)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp10-23",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CCCCN1C(=CNC1=O)C using mace_mp at T=800K"
  },
  {
-  "id": "urea-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NC(=O)N. Report the optimized energy in eV."
+  "id": "Exp10-24",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC1(C(N2C(S1)CC2=O)C(=O)O)C using mace_mp at T=800K"
  },
  {
-  "id": "urea-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NC(=O)N. Report the frequencies in cm-1."
+  "id": "Exp10-25",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string CC(=O)NC(=O)C(=CNC1=CC(=CC=C1)Br)C#N using mace_mp at T=800K"
  },
  {
-  "id": "urea-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: NC(=O)N. Report the Gibbs free energy in eV."
+  "id": "Exp10-26",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C(=O)(C(F)(F)Br)O using mace_mp at T=800K"
  },
  {
-  "id": "acetonitrile-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC#N. Report the optimized energy in eV."
+  "id": "Exp10-27",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC=NC(=C1)C=C(C#N)C2=CC=CC=N2 using mace_mp at T=800K"
  },
  {
-  "id": "acetonitrile-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC#N. Report the frequencies in cm-1."
+  "id": "Exp10-28",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1CCC2=C(SC=C2C1)NC3=NCCO3 using mace_mp at T=800K"
  },
  {
-  "id": "acetonitrile-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC#N. Report the Gibbs free energy in eV."
+  "id": "Exp10-29",
+  "category": "Exp10",
+  "query": "Calculate the Gibbs free energy of this SMILES string C1=CC(=C(C=C1Cl)Cl)NC(=O)C2=C(C=CC(=C2)Cl)[N+](=O)[O-] using mace_mp at T=800K"
  },
  {
-  "id": "aspirin-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the optimized energy in eV."
+  "id": "Exp11-0",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CN1C2=C(C(=O)NC1=O)N(C(=S)N2)CCOC using mace_mp. Save the optimized coordinate in an XYZ file named CN1C2=C(C(=O)NC1=O)N(C(=S)N2)CCOC.xyz"
  },
  {
-  "id": "aspirin-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp11-1",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CC1=C(C=C(C=C1Cl)[N+](=O)[O-])Cl using mace_mp. Save the optimized coordinate in an XYZ file named CC1=C(C=C(C=C1Cl)[N+](=O)[O-])Cl.xyz"
  },
  {
-  "id": "aspirin-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)OC1=CC=CC=C1C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp11-2",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1CC(C1)(C2=CC=CC3=CC=CC=C32)O using mace_mp. Save the optimized coordinate in an XYZ file named C1CC(C1)(C2=CC=CC3=CC=CC=C32)O.xyz"
  },
  {
-  "id": "ibuprofen-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the optimized energy in eV."
+  "id": "Exp11-3",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string COC1=C(C=C(C=C1)C(=O)Cl)OC using mace_mp. Save the optimized coordinate in an XYZ file named COC1=C(C=C(C=C1)C(=O)Cl)OC.xyz"
  },
  {
-  "id": "ibuprofen-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the frequencies in cm-1."
+  "id": "Exp11-4",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CC(COC)O using mace_mp. Save the optimized coordinate in an XYZ file named CC(COC)O.xyz"
  },
  {
-  "id": "ibuprofen-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(C)CC1=CC=C(C=C1)C(C)C(=O)O. Report the Gibbs free energy in eV."
+  "id": "Exp11-5",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C(C(C(=O)O)O)S using mace_mp. Save the optimized coordinate in an XYZ file named C(C(C(=O)O)O)S.xyz"
  },
  {
-  "id": "acetaminophen-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the optimized energy in eV."
+  "id": "Exp11-6",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC=C(C=C1)OC2=C(C(=O)C(C2(Cl)Cl)(Cl)Cl)Cl using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC=C(C=C1)OC2=C(C(=O)C(C2(Cl)Cl)(Cl)Cl)Cl.xyz"
  },
  {
-  "id": "acetaminophen-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the frequencies in cm-1."
+  "id": "Exp11-7",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC2=CN(N=C2C=C1)C3=CC(=CC=C3)F using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC2=CN(N=C2C=C1)C3=CC(=CC=C3)F.xyz"
  },
  {
-  "id": "acetaminophen-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CC(=O)NC1=CC=C(C=C1)O. Report the Gibbs free energy in eV."
+  "id": "Exp11-8",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string COC(=O)NS(=O)(=O)OC using mace_mp. Save the optimized coordinate in an XYZ file named COC(=O)NS(=O)(=O)OC.xyz"
  },
  {
-  "id": "caffeine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the optimized energy in eV."
+  "id": "Exp11-9",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC=C(C=C1)N2N=C(N=N2)C3=CN=CC=C3 using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC=C(C=C1)N2N=C(N=N2)C3=CN=CC=C3.xyz"
  },
  {
-  "id": "caffeine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the frequencies in cm-1."
+  "id": "Exp11-10",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CCCCC1=C(C=C(S1)C)C using mace_mp. Save the optimized coordinate in an XYZ file named CCCCC1=C(C=C(S1)C)C.xyz"
  },
  {
-  "id": "caffeine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C. Report the Gibbs free energy in eV."
+  "id": "Exp11-11",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CCOC(C(F)(F)F)(C(F)(F)F)O using mace_mp. Save the optimized coordinate in an XYZ file named CCOC(C(F)(F)F)(C(F)(F)F)O.xyz"
  },
  {
-  "id": "theophylline-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the optimized energy in eV."
+  "id": "Exp11-12",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CN1C2=C(C=C(C=C2)F)SC1=NC(=O)C3=C(SC(=C3)Cl)Cl using mace_mp. Save the optimized coordinate in an XYZ file named CN1C2=C(C=C(C=C2)F)SC1=NC(=O)C3=C(SC(=C3)Cl)Cl.xyz"
  },
  {
-  "id": "theophylline-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the frequencies in cm-1."
+  "id": "Exp11-13",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC=C(C(=C1)C2=NC3=C(C=CC(=C3)F)NC2=O)N using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC=C(C(=C1)C2=NC3=C(C=CC(=C3)F)NC2=O)N.xyz"
  },
  {
-  "id": "theophylline-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2. Report the Gibbs free energy in eV."
+  "id": "Exp11-14",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC(=C(N=C1)Cl)C(=O)NC2=NC=C(C=C2)Cl using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC(=C(N=C1)Cl)C(=O)NC2=NC=C(C=C2)Cl.xyz"
  },
  {
-  "id": "nicotine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the optimized energy in eV."
+  "id": "Exp11-15",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CCOC(=O)C1=C(NC(=O)N1)C using mace_mp. Save the optimized coordinate in an XYZ file named CCOC(=O)C1=C(NC(=O)N1)C.xyz"
  },
  {
-  "id": "nicotine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the frequencies in cm-1."
+  "id": "Exp11-16",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC(=CC=C1C(=O)[O-])Br using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC(=CC=C1C(=O)[O-])Br.xyz"
  },
  {
-  "id": "nicotine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1CCC[C@H]1C2=CN=CC=C2. Report the Gibbs free energy in eV."
+  "id": "Exp11-17",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC(=CC(=C1)C(=O)O)C2=CC=C(S2)C=O using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC(=CC(=C1)C(=O)O)C2=CC=C(S2)C=O.xyz"
  },
  {
-  "id": "metformin-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the optimized energy in eV."
+  "id": "Exp11-18",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C(P(=O)(O)[O-])(P(=O)(O)[O-])(Cl)Cl using mace_mp. Save the optimized coordinate in an XYZ file named C(P(=O)(O)[O-])(P(=O)(O)[O-])(Cl)Cl.xyz"
  },
  {
-  "id": "metformin-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the frequencies in cm-1."
+  "id": "Exp11-19",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CC1=CC=CC=C1C2=CC=C(C=C2)C#N using mace_mp. Save the optimized coordinate in an XYZ file named CC1=CC=CC=C1C2=CC=C(C=C2)C#N.xyz"
  },
  {
-  "id": "metformin-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN(C)C(=N)N=C(N)N. Report the Gibbs free energy in eV."
+  "id": "Exp11-20",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CC(C)(C)C1=NC(=NO1)C2=CC=C(C=C2)Br using mace_mp. Save the optimized coordinate in an XYZ file named CC(C)(C)C1=NC(=NO1)C2=CC=C(C=C2)Br.xyz"
  },
  {
-  "id": "lidocaine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the optimized energy in eV."
+  "id": "Exp11-21",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CN(C)C1=NC=NC2=C1C=CC(=C2)C(=O)O using mace_mp. Save the optimized coordinate in an XYZ file named CN(C)C1=NC=NC2=C1C=CC(=C2)C(=O)O.xyz"
  },
  {
-  "id": "lidocaine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the frequencies in cm-1."
+  "id": "Exp11-22",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CSC(=N1)NC(C(F)(F)F)O using mace_mp. Save the optimized coordinate in an XYZ file named C1=CSC(=N1)NC(C(F)(F)F)O.xyz"
  },
  {
-  "id": "lidocaine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CCN(CC)CC(=O)NC1=C(C=CC=C1C)C. Report the Gibbs free energy in eV."
+  "id": "Exp11-23",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=C(C=C(C(=C1[N+](=O)[O-])[O-])[N+](=O)[O-])CCC(=O)[O-] using mace_mp. Save the optimized coordinate in an XYZ file named C1=C(C=C(C(=C1[N+](=O)[O-])[O-])[N+](=O)[O-])CCC(=O)[O-].xyz"
  },
  {
-  "id": "diazepam-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the optimized energy in eV."
+  "id": "Exp11-24",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC(=C(C=C1F)N=C=O)CCl using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC(=C(C=C1F)N=C=O)CCl.xyz"
  },
  {
-  "id": "diazepam-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the frequencies in cm-1."
+  "id": "Exp11-25",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CN=C(C=N1)C(=O)NN using mace_mp. Save the optimized coordinate in an XYZ file named C1=CN=C(C=N1)C(=O)NN.xyz"
  },
  {
-  "id": "diazepam-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3. Report the Gibbs free energy in eV."
+  "id": "Exp11-26",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1CCC(CC1)NC(=O)C2=CSN=N2 using mace_mp. Save the optimized coordinate in an XYZ file named C1CCC(CC1)NC(=O)C2=CSN=N2.xyz"
  },
  {
-  "id": "paroxetine-opt-large-0b2",
-  "category": "opt",
-  "query": "Run geometry optimization using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the optimized energy in eV."
+  "id": "Exp11-27",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1=CC(=CC=C1CC2=NC3=C(O2)C=CC(=C3)[N+](=O)[O-])Cl using mace_mp. Save the optimized coordinate in an XYZ file named C1=CC(=CC=C1CC2=NC3=C(O2)C=CC(=C3)[N+](=O)[O-])Cl.xyz"
  },
  {
-  "id": "paroxetine-vib-large-0b2",
-  "category": "vib",
-  "query": "Report the vibrational frequencies using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the frequencies in cm-1."
+  "id": "Exp11-28",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string CC(=NNC(=O)C1=CC(=CC=C1)Br)C2CC2 using mace_mp. Save the optimized coordinate in an XYZ file named CC(=NNC(=O)C1=CC(=CC=C1)Br)C2CC2.xyz"
  },
  {
-  "id": "paroxetine-thermo-large-0b2",
-  "category": "thermo",
-  "query": "Report the thermochemical properties (Gibbs free energy) at 300 K using the mace_mp calculator with the large-0b2 model for the molecule with SMILES: C1CNC[C@H]([C@@H]1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4. Report the Gibbs free energy in eV."
+  "id": "Exp11-29",
+  "category": "Exp11",
+  "query": "Perform geometry optimization for this SMILES string C1C2=C(C=C(C=C2)N)C3=C1C=C(C=C3)F using mace_mp. Save the optimized coordinate in an XYZ file named C1C2=C(C=C(C=C2)N)C3=C1C=C(C=C3)F.xyz"
+ },
+ {
+  "id": "Exp12-0",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Methane) + 2 (Oxygen) -> 1 (Carbon dioxide) + 2 (Water). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-1",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Nitrogen gas) + 3 (Hydrogen gas) -> 2 (Ammonia). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-2",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Carbon monoxide) + 1 (Water) -> 1 (Carbon dioxide) + 1 (Hydrogen gas). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-3",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Ethene) + 1 (Hydrogen gas) -> 1 (Ethane). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-4",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Ethanol) + 3 (Oxygen) -> 2 (Carbon dioxide) + 3 (Water). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-5",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Ethene) + 1 (Water) -> 1 (Ethanol). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-6",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Phenylboronic acid) + 1 (Bromobenzene) -> 1 (Biphenyl) + 1 (Hydrogen bromide). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-7",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Carbon dioxide) + 1 (Water) -> 1 (Carbonic acid). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-8",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Propane) + 5 (Oxygen) -> 3 (Carbon dioxide) + 4 (Water). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-9",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Formic acid) -> 1 (Carbon dioxide) + 1 (Hydrogen gas). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-10",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 2 (Sulfur dioxide) + 1 (Oxygen) -> 2 (Sulfur trioxide). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-11",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Methane) + 1 (Chlorine) -> 1 (Chloromethane) + 1 (Hydrogen chloride). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-12",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 2 (Propanol) + 9 (Oxygen) -> 6 (Carbon dioxide) + 8 (Water). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-13",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Benzene) + 3 (Hydrogen gas) -> 1 (Cyclohexane). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp12-14",
+  "category": "Exp12",
+  "query": "You are given a chemical reaction: 1 (Formaldehyde) + 1 (Oxygen) -> 1 (Formic acid). Calculate the enthalpy for this reaction using GFN2-xTB at 400K."
+ },
+ {
+  "id": "Exp13-0",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Methane) + 2 (Oxygen) -> 1 (Carbon dioxide) + 2 (Water). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-1",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Nitrogen gas) + 3 (Hydrogen gas) -> 2 (Ammonia). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-2",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Carbon monoxide) + 1 (Water) -> 1 (Carbon dioxide) + 1 (Hydrogen gas). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-3",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Ethene) + 1 (Hydrogen gas) -> 1 (Ethane). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-4",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Ethanol) + 3 (Oxygen) -> 2 (Carbon dioxide) + 3 (Water). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-5",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Ethene) + 1 (Water) -> 1 (Ethanol). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-6",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Phenylboronic acid) + 1 (Bromobenzene) -> 1 (Biphenyl) + 1 (Hydrogen bromide). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-7",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Carbon dioxide) + 1 (Water) -> 1 (Carbonic acid). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-8",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Propane) + 5 (Oxygen) -> 3 (Carbon dioxide) + 4 (Water). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-9",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Formic acid) -> 1 (Carbon dioxide) + 1 (Hydrogen gas). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-10",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 2 (Sulfur dioxide) + 1 (Oxygen) -> 2 (Sulfur trioxide). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-11",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Methane) + 1 (Chlorine) -> 1 (Chloromethane) + 1 (Hydrogen chloride). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-12",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 2 (Propanol) + 9 (Oxygen) -> 6 (Carbon dioxide) + 8 (Water). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-13",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Benzene) + 3 (Hydrogen gas) -> 1 (Cyclohexane). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
+ },
+ {
+  "id": "Exp13-14",
+  "category": "Exp13",
+  "query": "You are given a chemical reaction: 1 (Formaldehyde) + 1 (Oxygen) -> 1 (Formic acid). Calculate the Gibbs free energy change (\u0394G) for this reaction using mace_mp at 500K."
  }
 ]

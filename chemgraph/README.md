@@ -37,17 +37,16 @@ chemgraph eval --models qwen3.8-27b --config config.toml --profile small --outpu
 
 | Profile | Dataset | Questions | Duration |
 | --- | --- | --- | --- |
-| `small` | [benchmark](../datasets/) | 40, small molecules, graded against ground truth | 38 min (measured) |
-| `big` | [`questions/big.json`](questions/big.json) | 30 molecules × {optimization, vibrations, thermochemistry}, MACE `medium-0b2` | ~2 h (estimated) |
-| `huge` | [`questions/huge.json`](questions/huge.json) | `big` × MACE {`small-0b2`, `medium-0b2`, `large-0b2`} | ~6–10 h (estimated) |
+| `small` | [benchmark](../datasets/#benchmark-small) | 40, small molecules, graded against ground truth | 38 min (measured) |
+| `big` | [`questions/big.json`](questions/big.json) | 60 from the paper evaluation: vibrations, reaction enthalpy and Gibbs free energy | ~2 h (estimated) |
+| `huge` | [`questions/huge.json`](questions/huge.json) | 300 from the paper evaluation, all runnable experiments | ~12 h (estimated) |
+
+Questions and their sources: [datasets/](../datasets/).
 
 All profiles use the `multi_agent` workflow: a planner splits each question into subtasks,
 executor agents run them in parallel, and a response agent writes the answer.
-Questions run one after another.
-
-The molecules are 20 small molecules from ChemGraph's MACE screening example and 10 approved drugs
-(PubChem SMILES, up to 47 atoms). Cost per question grows with molecule size, task
-(vibrations and thermochemistry need one force calculation per atom) and MACE model size.
+Questions run one after another. Cost per question grows with molecule size (up to 29 atoms
+in the paper set) and task: vibrations and thermochemistry need one force calculation per atom.
 
 | Option | Effect |
 | --- | --- |
@@ -63,6 +62,8 @@ every structure, trajectory and agent conversation (`state_thread_*.json`).
 Known issues in 0.7.0:
 
 - Exit code is 0 even when a question fails; check the report.
-- Name MACE models exactly (`small-0b2`, not `small`); the agent otherwise invents names like
-  `small-mpa-0`, retries until the recursion limit and returns no answer.
+- Some questions end at the recursion limit (50 steps) without an answer, e.g. when the agent
+  repeats a finished optimization. The run continues with the next question.
+- With a MACE size like `small` in the question, the agent may invent a model name (`small-mpa-0`),
+  retry until the recursion limit and return no answer. Use exact names such as `small-0b2`.
 - Molecules above ~60 atoms fail in RDKit's pre-optimization ("Failed to optimize 3D geometry").
