@@ -31,29 +31,15 @@ OpenAI-compatible endpoint used by ChemGraph. Endpoint URL and API key are provi
 
 ## Serving configuration
 
-```bash
-docker run --gpus all -p 8000:8000 --ipc=host \
-  -v ~/.cache/huggingface:/root/.cache/huggingface \
-  vllm/vllm-openai:v0.32.0 \
-  Qwen/Qwen3.8-27B-FP8 \
-  --served-model-name qwen3.8-27b \
-  --api-key "$VLLM_API_KEY" \
-  --max-model-len 131072 \
-  --kv-cache-dtype fp8 \
-  --language-model-only \
-  --max-num-seqs 64 \
-  --enable-prefix-caching \
-  --reasoning-parser qwen3 \
-  --enable-auto-tool-choice --tool-call-parser qwen3_coder \
-  --default-chat-template-kwargs '{"enable_thinking": false}'
-```
-
-| Flag | Purpose |
+| Setting | Value |
 | --- | --- |
-| `--language-model-only` | No vision encoder; memory goes to the KV cache |
-| `--max-num-seqs 64` | The default (256) exceeds the model's state slots on the L40 (228) |
-| `--enable-prefix-caching` | Reuses the shared prompt prefix across agent calls |
-| `--default-chat-template-kwargs` | Thinking mode off |
+| Max. context length | 131072 tokens |
+| KV-cache dtype | FP8 |
+| Max. concurrent sequences | 64 |
+| Prefix caching | on |
+| Tool calling | auto, `qwen3_coder` parser |
+| Thinking mode | off |
+| Vision encoder | not loaded |
 
 ## Endpoint check
 

@@ -21,6 +21,16 @@ Durations refer to one agent host with 24 cores, questions processed sequentiall
 | [`datasets/`](datasets/) | Dataset sources, download, conversion |
 | [`llm/`](llm/) | LLM server: hardware, model, serving configuration |
 
+## Monitoring
+
+Grafana dashboards (URLs provided separately):
+
+| Dashboard | Source | Metrics |
+| --- | --- | --- |
+| GPU | NVIDIA DCGM exporter | Utilization, memory, power, temperature, clocks |
+| LLM server | vLLM `/metrics` | Running and waiting requests, latency, token throughput, KV-cache usage |
+| Hosts | Prometheus node exporter | CPU, memory, disk and network per node |
+
 ## Licenses
 
 ChemGraph is licensed under Apache-2.0. Datasets are subject to the terms of their sources.
